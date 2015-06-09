@@ -1,3 +1,8 @@
+html
+	{
+	background-color:f0f0f0;
+	}
+
 h1 
 	{
 	font-size: 60px;
@@ -18,20 +23,26 @@ h1
 	font-family: arial;
 	font-weight: bold;
 	font-size: 12px;
+	position: relative;
 	}
 
 	
 #box1 
 /*Paragraphe*/
 	{
-	width: 960px;
-	text-align: justify;
+	width: 300px;
+	height: 270px;
+	text-align: left;
 	font-style: italic;
 	font-family: arial;
 	font-weight: bold;
-	font-size: 12px;
-	margin-top : 20px;
-	margin-bottom: 20px;
+	font-size: 18px;
+	background-color: white;
+	position: absolute;
+	top: 530px;
+	right: 0;
+	padding: 18px;
+	padding-bottom: 18px;
 	}
 	
 	
@@ -46,6 +57,7 @@ nav
 
 #header
 	{
+	padding-top: 65px;
 	font-size: 20px;
 	font-family: arial;
 	}
@@ -68,9 +80,9 @@ body
 
 a:hover 
 /*Apparition en gras lorsqu'on place la souris dessus*/
-		{
-		font-weight: bold;
-		}
+	{
+	font-weight: bold;
+	}
 
 	
 a:link 

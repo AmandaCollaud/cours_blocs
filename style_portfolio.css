@@ -1,3 +1,9 @@
+html
+	{
+	background-color:f0f0f0;
+	}
+
+
 h1 
 	{
 	font-size: 40px;
@@ -19,6 +25,7 @@ body
 
 h2 
 	{
+	margin: 0;
 	font-size: 25px;
 	font-family: arial;
 	text-decoration: underline;
@@ -31,7 +38,6 @@ p
 	font-size: 15px;
 	font-family: arial;
 	font-weight:bold;
-	margin-bottom: 40px;
 	}
 	
 	
@@ -58,6 +64,7 @@ nav
 	
 #header 
 	{
+	padding-top: 65px;
 	font-size: 20px;
 	font-family: arial;
 	}
@@ -82,4 +89,47 @@ a:visited
 a:link
 	{ 
 	text-decoration:none; 
+	}
+	
+	
+#un 
+	{
+	width: 300px;
+	text-align: left;
+	float: right;
+	height: 400px;
+	vertical-align: top;
+	}
+	
+#deux 
+	{
+	text-align: right;
+	width: 300px;
+	float: left;
+	height: 400px;
+	vertical-align: top;
+	}
+
+#trois
+	{
+	text-align: left;
+	width: 300px;
+	float: right;
+	height: 400px;
+	vertical-align: top;
+	}
+	
+	
+#bureau
+	{float: left;
+	margin-bottom: 50px;
+	}
+	
+#livre
+	{float: right;
+	margin-bottom: 50px;
+	}
+	
+#photographe
+	{float: left;
 	}

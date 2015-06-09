@@ -1,3 +1,9 @@
+html
+	{
+	background-color:f0f0f0;
+	}
+	
+
 h1 
 	{
 	font-size: 40px;
@@ -11,6 +17,7 @@ h1
 	
 #header 
 	{
+	padding-top: 65px;
 	font-size: 20px;
 	font-family: arial;
 	}
@@ -85,13 +92,16 @@ footer
 	font-size: 25px;
 	margin-bottom: 18px;
 	}
-	
+
+textarea{
+	resize:none;
+	}
 	
 #message label 
 /*Permet d'aligner le texte en haut à droite*/
 	{
 	height: 154px;
-	vertical-align: top;
+	vertical-align: top; 
 	}
 	
 	
